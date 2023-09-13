@@ -19,4 +19,14 @@ class SolutionTest {
         Assertions.assertFalse(solution.isValid("(]"));
     }
 
+    @Test
+    void test4(){
+        Assertions.assertTrue(solution.isValid("{[]}"));
+    }
+
+    @Test
+    void test5(){
+        Assertions.assertFalse(solution.isValid("]"));
+    }
+
 }
