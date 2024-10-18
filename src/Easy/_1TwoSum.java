@@ -22,7 +22,6 @@ public class _1TwoSum {
             } else {
                 hashMap.put(currentNum, currentIndex);
             }
-
         }
         return null;
     }
